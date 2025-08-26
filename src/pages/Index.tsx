@@ -3,9 +3,9 @@ import { Card } from "@/components/ui/card";
 import { StatsCard } from "@/components/StatsCard";
 import { PricingCard } from "@/components/PricingCard";
 import { TrendingUp, Target, Award, Star, BarChart3, Users } from "lucide-react";
-import heroImage from "@/assets/hero-betting.jpg";
-import sportsAnalystsImage from "@/assets/sports-analysts-team.jpg";
-import profitImage from "@/assets/profit-success.jpg";
+const heroImage = "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=2070&q=80";
+const sportsAnalystsImage = "https://images.unsplash.com/photo-1600132806294-2154e3cfeeb8?auto=format&fit=crop&w=2070&q=80";
+const profitImage = "https://images.unsplash.com/photo-1569025690938-a00729cafa61?auto=format&fit=crop&w=2070&q=80";
 
 const Index = () => {
   const handleSubscribe = (plan: string) => {
