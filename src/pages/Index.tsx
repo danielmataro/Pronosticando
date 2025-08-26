@@ -340,7 +340,7 @@ const Index = () => {
             <a href="#" className="hover:text-primary transition-colors">Contacto</a>
           </div>
           <p className="text-muted-foreground mt-6 text-sm">
-            © 2024 pronosticando. Juega con responsabilidad. +18
+            © 2022 pronosticando. Juega con responsabilidad. +18
           </p>
         </div>
       </footer>
