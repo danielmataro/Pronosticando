@@ -6,6 +6,7 @@ import { TrendingUp, Target, Award, Star, BarChart3, Users } from "lucide-react"
 const heroImage = "/hero-betting.svg";
 const sportsAnalystsImage = "/sports-analysts-team.svg";
 const profitImage = "/profit-success.svg";
+const laligaImage = "/laliga.svg";
 
 const Index = () => {
   const handleSubscribe = (plan: string) => {
@@ -274,8 +275,8 @@ const Index = () => {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-hero opacity-20 rounded-2xl blur-xl"></div>
-              <img 
-                src="/lovable-uploads/1e8886c8-7460-4413-a635-f23de612bf8a.png" 
+              <img
+                src={laligaImage}
                 alt="Liga Española de Fútbol - Especialización en pronósticos deportivos"
                 className="relative rounded-2xl shadow-card w-full h-auto"
               />
