@@ -71,3 +71,14 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+## Google Analytics
+
+To track visits with Google Analytics 4, create an `.env` file in the project root
+and set your measurement ID:
+
+```bash
+VITE_GA_ID=G-XXXXXXXXXX
+```
+
+The `index.html` file will load the Google tag using this value.
