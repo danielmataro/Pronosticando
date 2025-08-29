@@ -81,4 +81,4 @@ and set your measurement ID:
 VITE_GA_ID=G-XXXXXXXXXX
 ```
 
-The `index.html` file will load the Google tag using this value.
+The app dynamically loads the Google tag in `src/main.tsx` using this value.
