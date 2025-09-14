@@ -316,11 +316,6 @@ const Index = () => {
             <p className="text-muted-foreground mb-4">
               🔒 Pago seguro con Stripe • ✅ Garantía de satisfacción 30 días
             </p>
-            <Card className="max-w-md mx-auto p-4 bg-success/10 border-success/20">
-              <p className="text-success font-semibold">
-                💰 Oferta Especial: 50% descuento en tu primer mes
-              </p>
-            </Card>
           </div>
         </div>
       </section>
